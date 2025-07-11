@@ -9,15 +9,21 @@
 </head>
 <body>
     <div class="demo-container">
-        <!-- Header -->
+        <!-- Compact Header -->
         <header class="header">
-            <div class="header-content">
-                <h1>🤖 AI Claims Processing System</h1>
-                <p class="subtitle">Live MVP Demonstration</p>
+            <div class="header-left">
+                <h1>AI Claims Processing System</h1>
+                <span class="case-tag">Martinez Family vs Steve | T-Bone Collision | April 23, 2025</span>
             </div>
-            <div class="case-info">
-                <strong>Case Study:</strong> Martinez Family vs Steve | T-Bone Collision | April 23, 2025
-                <br><span class="case-details">Multi-generational claim with minor facial trauma + elderly complications</span>
+            <div class="header-right">
+                <div class="document-upload">
+                    <div class="upload-label">📄 Document Uploaded:</div>
+                    <div class="uploaded-file">
+                        <span class="file-icon">📋</span>
+                        <span class="file-name">Martinez_Police_Report.pdf</span>
+                        <span class="file-status">✅</span>
+                    </div>
+                </div>
             </div>
         </header>
 
@@ -25,9 +31,9 @@
         <main class="main-area">
             <!-- Agent Pipeline -->
             <section class="agent-pipeline">
-                <h2>🔄 AI Agent Processing Pipeline</h2>
-                <div class="pipeline-info">
-                    <p>Watch our 5 specialized AI agents analyze the Martinez claim in real-time</p>
+                <div class="section-header">
+                    <h2>🔄 AI Agent Pipeline</h2>
+                    <p>Watch 5 specialized agents analyze the claim in real-time</p>
                 </div>
                 
                 <div class="agents">
@@ -114,25 +120,20 @@
 
             <!-- Live Results -->
             <section class="results-area">
-                <h2>📊 Live Processing Results</h2>
-                <div class="results-info">
-                    <p>AI insights appear here as each agent completes its analysis</p>
+                <div class="section-header">
+                    <h2>📊 Live Processing Results</h2>
+                    <p>AI insights appear as each agent completes analysis</p>
                 </div>
                 
                 <div id="liveResults" class="live-results">
                     <div class="waiting-message">
                         <div class="waiting-icon">⏳</div>
                         <h3>Ready to Process</h3>
-                        <p>Click "START AI PROCESSING" to watch the Martinez claim flow through our intelligent agent system</p>
+                        <p>Click "START AI PROCESSING" to begin</p>
                     </div>
                 </div>
             </section>
         </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p>AI Claims Processing MVP Demo | Transforming Insurance Complexity into Clarity</p>
-        </footer>
     </div>
 
     <script src="assets/js/demo.js"></script>
