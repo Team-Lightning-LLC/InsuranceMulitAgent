@@ -127,36 +127,78 @@ class ClaimsDemo {
                     `
                 }
             },
-            {
-                id: 5,
-                name: "System Learning",
-                icon: "📊",
-                duration: 2500,
-                description: "Capturing patterns and updating prediction models...",
-                result: {
-                    title: "🤖 AGENT 5: System Learning Loop Complete",
-                    content: `
-                        <div class="result-card">
-                            <h4>🧠 Intelligence Captured</h4>
-                            <p>New patterns identified and added to proprietary database:</p>
-                            
-                            <div class="flag-item">🚗 Tesla glass breakage → facial injury severity correlation</div>
-                            <div class="flag-item">👨‍👩‍👧‍👦 Multi-generational claim dynamics (+2.1x settlement factor)</div>
-                            <div class="flag-item">👶 Minor + elderly complexity interaction patterns</div>
-                            <div class="flag-item">🏥 Memorial Hospital trauma protocol → outcome predictions</div>
-                            <div class="flag-item">💉 Diabetic + unconscious → cardiac risk modeling</div>
-                            
-                            <h4>🚀 Algorithm Improvements</h4>
-                            <div class="flag-item success-item">✅ Enhanced Tesla damage assessment protocols</div>
-                            <div class="flag-item success-item">✅ Refined minor growth-surgery prediction models</div>
-                            <div class="flag-item success-item">✅ Updated elderly diabetic complication matrices</div>
-                            <div class="flag-item success-item">✅ Improved family dynamics impact assessments</div>
-                            
-                            <p><strong>🏆 Competitive Advantage:</strong> Your company now has the most sophisticated multi-generational claim prediction model in the industry. Each similar case further refines accuracy, creating an insurmountable data advantage.</p>
-                        </div>
-                    `
-                }
-            }
+       {
+    id: 5,
+    name: "System Learning",
+    icon: "📊",
+    duration: 2500,
+    description: "Analyzing claim evolution and updating prediction models...",
+    result: {
+        title: "🤖 AGENT 5: System Learning Loop Complete",
+        content: `
+            <div class="result-card">
+                <h4>📋 Claim Analysis: Martinez Family (2025-0423-187)</h4>
+                <p>T-bone collision with multi-generational family. 69-year-old unconscious diabetic driver, 67-year-old passenger, 8-year-old with facial trauma. High-speed impact (55mph in 35mph zone). Clear liability to at-fault driver.</p>
+                
+                <h4>⏱️ Timeline with Reserve Adjustments</h4>
+                
+                <div class="flag-item" style="background: #f0f9ff; border-left-color: #0ea5e9; color: #0c4a6e;">
+                    <strong>April 23, 2025: Incident</strong><br>
+                    T-bone collision, unconscious elderly driver (Roberto, 69, diabetic)<br>
+                    8-year-old Sofia facial lacerations from Tesla glass breakage<br>
+                    <em>Early Predictors:</em> Minor facial trauma + elderly unconscious + family dynamics
+                </div>
+                
+                <div class="flag-item" style="background: #fef3c7; border-left-color: #f59e0b; color: #92400e;">
+                    <strong>April 24, 2025: Initial AI Reserve - $612,500</strong><br>
+                    Based on complexity multipliers and historical patterns<br>
+                    <em>Key Insight:</em> Minor facial trauma requires 6.2x multiplier for growth-related surgeries
+                </div>
+                
+                <div class="flag-item" style="background: #fef3c7; border-left-color: #f59e0b; color: #92400e;">
+                    <strong>May 15, 2025: First Adjustment - $645,000 (+$32,500)</strong><br>
+                    Sofia's second surgery due to growth changes<br>
+                    Roberto cardiac complications from diabetes<br>
+                    <em>Predictable Element:</em> 73% of elderly unconscious diabetics develop cardiac issues
+                </div>
+                
+                <div class="flag-item" style="background: #fef3c7; border-left-color: #f59e0b; color: #92400e;">
+                    <strong>July 8, 2025: Second Adjustment - $685,000 (+$40,000)</strong><br>
+                    Family attorney retained (as predicted 76% probability)<br>
+                    Sofia requires psychological counseling<br>
+                    <em>Complex Element:</em> Family unit trauma multiplier in effect
+                </div>
+                
+                <div class="flag-item" style="background: #dcfce7; border-left-color: #22c55e; color: #166534;">
+                    <strong>October 22, 2025: Final Settlement - $674,280</strong><br>
+                    18-month resolution as predicted<br>
+                    <strong>Reserve Accuracy:</strong> 98.4% ($685K vs $674K)
+                </div>
+                
+                <h4>🎯 Case Conclusion for Analytics</h4>
+                
+                <div class="success-item">
+                    <strong>Reserve Accuracy:</strong> 98.4% final alignment ($685,000 vs $674,280)
+                </div>
+                
+                <h4>🔍 Key Predictive Elements Validated:</h4>
+                <div class="flag-item">1. Tesla glass breakage pattern → facial injury severity (92% correlation)</div>
+                <div class="flag-item">2. Unconscious elderly diabetic → cardiac complications within 60 days</div>
+                <div class="flag-item">3. Minor facial trauma → average 2.6 surgeries through age 18</div>
+                <div class="flag-item">4. Family unit dynamics → 2.1x settlement multiplier confirmed</div>
+                <div class="flag-item">5. Multi-generational claims → 89% attorney involvement rate</div>
+                
+                <h4>📈 Reserve Setting Improvement Opportunities:</h4>
+                <div class="success-item">✅ Minor + elderly combination warrants immediate specialist routing</div>
+                <div class="success-item">✅ Tesla Model S impact physics predict specific injury patterns</div>
+                <div class="success-item">✅ Family attorney involvement timeline now refined to 90-day average</div>
+                <div class="success-item">✅ Diabetic trauma protocols updated with cardiac risk modeling</div>
+                
+                <p style="margin-top: 15px; padding: 10px; background: #f0f9ff; border-radius: 6px; border-left: 3px solid #0ea5e9; color: #0c4a6e;"><strong>🏆 Competitive Intelligence:</strong> This case refined our multi-generational claim prediction model. The system now has 47 similar cases in database, creating industry-leading accuracy in family unit dynamics and minor facial trauma progression.</p>
+            </div>
+        `
+    }
+}
         ];
         
         this.init();
