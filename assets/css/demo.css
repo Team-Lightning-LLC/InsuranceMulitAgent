@@ -581,3 +581,102 @@ body {
         grid-template-columns: 1fr;
     }
 }
+/* Clean Timeline Styles */
+.timeline-container {
+    margin: 15px 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 12px 0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 4px solid;
+    animation: slideInUp 0.4s ease;
+}
+
+.timeline-incident {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left-color: #3b82f6;
+    color: #1e40af;
+}
+
+.timeline-reserve {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left-color: #f59e0b;
+    color: #92400e;
+}
+
+.timeline-adjustment {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left-color: #f59e0b;
+    color: #92400e;
+}
+
+.timeline-settlement {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-left-color: #22c55e;
+    color: #166534;
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.timeline-date {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+
+.timeline-amount {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.timeline-description {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin: 6px 0;
+}
+
+.timeline-insight {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 8px;
+    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 0.75rem;
+    line-height: 1.3;
+}
+
+.insight-label {
+    font-weight: 600;
+    font-style: italic;
+    min-width: 70px;
+    flex-shrink: 0;
+}
+
+.insight-text {
+    flex: 1;
+}
+
+/* Accuracy Badge */
+.accuracy-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #166534;
+}
