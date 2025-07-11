@@ -141,33 +141,79 @@ class ClaimsDemo {
                 <p>T-bone collision with multi-generational family. 69-year-old unconscious diabetic driver, 67-year-old passenger, 8-year-old with facial trauma. High-speed impact (55mph in 35mph zone). Clear liability to at-fault driver.</p>
                 
                 <h4>⏱️ Timeline with Reserve Adjustments</h4>
-                
-                <div class="flag-item" style="background: #f0f9ff; border-left-color: #0ea5e9; color: #0c4a6e;">
-                    <strong>April 23, 2025: Incident</strong><br>
-                    T-bone collision, unconscious elderly driver (Roberto, 69, diabetic)<br>
-                    8-year-old Sofia facial lacerations from Tesla glass breakage<br>
-                    <em>Early Predictors:</em> Minor facial trauma + elderly unconscious + family dynamics
-                </div>
-                
-                <div class="flag-item" style="background: #fef3c7; border-left-color: #f59e0b; color: #92400e;">
-                    <strong>April 24, 2025: Initial AI Reserve - $612,500</strong><br>
-                    Based on complexity multipliers and historical patterns<br>
-                    <em>Key Insight:</em> Minor facial trauma requires 6.2x multiplier for growth-related surgeries
-                </div>
-                
-                <div class="flag-item" style="background: #fef3c7; border-left-color: #f59e0b; color: #92400e;">
-                    <strong>May 15, 2025: First Adjustment - $645,000 (+$32,500)</strong><br>
-                    Sofia's second surgery due to growth changes<br>
-                    Roberto cardiac complications from diabetes<br>
-                    <em>Predictable Element:</em> 73% of elderly unconscious diabetics develop cardiac issues
-                </div>
-                
-                <div class="flag-item" style="background: #fef3c7; border-left-color: #f59e0b; color: #92400e;">
-                    <strong>July 8, 2025: Second Adjustment - $685,000 (+$40,000)</strong><br>
-                    Family attorney retained (as predicted 76% probability)<br>
-                    Sofia requires psychological counseling<br>
-                    <em>Complex Element:</em> Family unit trauma multiplier in effect
-                </div>
+<div class="timeline-container">
+    <div class="timeline-item timeline-incident">
+        <div class="timeline-header">
+            <div class="timeline-date">April 23, 2025: Incident</div>
+        </div>
+        <div class="timeline-description">
+            T-bone collision, unconscious elderly driver (Roberto, 69, diabetic)<br>
+            8-year-old Sofia facial lacerations from Tesla glass breakage
+        </div>
+        <div class="timeline-insight">
+            <span class="insight-label">Early Predictors:</span>
+            <span class="insight-text">Minor facial trauma + elderly unconscious + family dynamics</span>
+        </div>
+    </div>
+
+    <div class="timeline-item timeline-reserve">
+        <div class="timeline-header">
+            <div class="timeline-date">April 24, 2025: Initial AI Reserve</div>
+            <div class="timeline-amount">$612,500</div>
+        </div>
+        <div class="timeline-description">
+            Based on complexity multipliers and historical patterns
+        </div>
+        <div class="timeline-insight">
+            <span class="insight-label">Key Insight:</span>
+            <span class="insight-text">Minor facial trauma requires 6.2x multiplier for growth-related surgeries</span>
+        </div>
+    </div>
+
+    <div class="timeline-item timeline-adjustment">
+        <div class="timeline-header">
+            <div class="timeline-date">May 15, 2025: First Adjustment</div>
+            <div class="timeline-amount">$645,000 <span style="font-size: 0.8rem;">(+$32,500)</span></div>
+        </div>
+        <div class="timeline-description">
+            Sofia's second surgery due to growth changes<br>
+            Roberto cardiac complications from diabetes
+        </div>
+        <div class="timeline-insight">
+            <span class="insight-label">Predictable:</span>
+            <span class="insight-text">73% of elderly unconscious diabetics develop cardiac issues</span>
+        </div>
+    </div>
+
+    <div class="timeline-item timeline-adjustment">
+        <div class="timeline-header">
+            <div class="timeline-date">July 8, 2025: Second Adjustment</div>
+            <div class="timeline-amount">$685,000 <span style="font-size: 0.8rem;">(+$40,000)</span></div>
+        </div>
+        <div class="timeline-description">
+            Family attorney retained (as predicted 76% probability)<br>
+            Sofia requires psychological counseling
+        </div>
+        <div class="timeline-insight">
+            <span class="insight-label">Complex Element:</span>
+            <span class="insight-text">Family unit trauma multiplier in effect</span>
+        </div>
+    </div>
+
+    <div class="timeline-item timeline-settlement">
+        <div class="timeline-header">
+            <div class="timeline-date">October 22, 2025: Final Settlement</div>
+            <div class="timeline-amount">$674,280</div>
+        </div>
+        <div class="timeline-description">
+            18-month resolution as predicted
+        </div>
+        <div class="timeline-insight">
+            <span class="insight-label">Reserve Accuracy:</span>
+            <span class="insight-text">98.4% ($685K vs $674K) <span class="accuracy-badge">✅ 98.4%</span></span>
+        </div>
+    </div>
+</div>
                 
                 <div class="flag-item" style="background: #dcfce7; border-left-color: #22c55e; color: #166534;">
                     <strong>October 22, 2025: Final Settlement - $674,280</strong><br>
