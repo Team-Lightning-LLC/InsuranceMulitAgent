@@ -1,0 +1,84 @@
+{
+  "claimId": "2025-0423-187",
+  "claimant": {
+    "primary": "Martinez Family",
+    "occupants": [
+      {
+        "name": "Roberto Martinez",
+        "age": 69,
+        "role": "driver",
+        "injuries": ["unconscious", "chest trauma"],
+        "preExisting": ["diabetes"],
+        "severity": "critical"
+      },
+      {
+        "name": "Maria Martinez", 
+        "age": 67,
+        "role": "passenger",
+        "injuries": ["neck pain", "back pain", "disorientation"],
+        "preExisting": [],
+        "severity": "moderate"
+      },
+      {
+        "name": "Sofia Martinez",
+        "age": 8,
+        "role": "passenger",
+        "injuries": ["facial lacerations"],
+        "preExisting": [],
+        "severity": "high",
+        "specialConsiderations": ["minor", "facial trauma", "scarring potential"]
+      }
+    ]
+  },
+  "incident": {
+    "date": "2025-04-23",
+    "time": "14:47",
+    "location": "Main St & 5th Ave intersection",
+    "type": "T-bone collision",
+    "speed": "55mph in 35mph zone",
+    "weather": "clear",
+    "liability": "clear (red light violation by Steve)"
+  },
+  "vehicles": [
+    {
+      "owner": "Steve",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2018,
+      "damage": "moderate",
+      "estimatedCost": 8000
+    },
+    {
+      "owner": "Martinez Family",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2024,
+      "damage": "extensive",
+      "estimatedCost": 45000
+    }
+  ],
+  "policy": {
+    "bodilyInjuryPerPerson": 100000,
+    "bodilyInjuryTotal": 300000,
+    "propertyDamage": 100000
+  },
+  "complexityFactors": [
+    "minor involvement",
+    "facial trauma",
+    "elderly claimants", 
+    "unconscious driver",
+    "pre-existing conditions",
+    "high-speed impact",
+    "family dynamics",
+    "high-value property"
+  ],
+  "aiReserve": {
+    "traditional": 115000,
+    "aiEnhanced": 612500,
+    "confidence": 84,
+    "expectedRange": {
+      "min": 380000,
+      "max": 950000
+    }
+  }
+}
