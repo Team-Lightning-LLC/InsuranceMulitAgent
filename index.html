@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Claims Processing MVP Demo</title>
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="demo-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🤖 AI Claims Processing System</h1>
+                <p class="subtitle">Live MVP Demonstration</p>
+            </div>
+            <div class="case-info">
+                <strong>Case Study:</strong> Martinez Family vs Steve | T-Bone Collision | April 23, 2025
+                <br><span class="case-details">Multi-generational claim with minor facial trauma + elderly complications</span>
+            </div>
+        </header>
+
+        <!-- Main Demo Area -->
+        <main class="main-area">
+            <!-- Agent Pipeline -->
+            <section class="agent-pipeline">
+                <h2>🔄 AI Agent Processing Pipeline</h2>
+                <div class="pipeline-info">
+                    <p>Watch our 5 specialized AI agents analyze the Martinez claim in real-time</p>
+                </div>
+                
+                <div class="agents">
+                    <div id="agent1" class="agent waiting" data-agent="1">
+                        <div class="agent-header">
+                            <span class="agent-icon">📄</span>
+                            <div class="agent-info">
+                                <span class="agent-name">AGENT 1: Document Analysis</span>
+                                <span class="agent-description">Complexity scoring & flag identification</span>
+                            </div>
+                            <span id="agent1-status" class="status">Ready</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress1" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <div id="agent2" class="agent waiting" data-agent="2">
+                        <div class="agent-header">
+                            <span class="agent-icon">🔗</span>
+                            <div class="agent-info">
+                                <span class="agent-name">AGENT 2: Context & History</span>
+                                <span class="agent-description">Pattern matching & prediction modeling</span>
+                            </div>
+                            <span id="agent2-status" class="status">Waiting</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress2" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <div id="agent3" class="agent waiting" data-agent="3">
+                        <div class="agent-header">
+                            <span class="agent-icon">👤</span>
+                            <div class="agent-info">
+                                <span class="agent-name">AGENT 3: Intelligent Routing</span>
+                                <span class="agent-description">Optimal adjuster assignment</span>
+                            </div>
+                            <span id="agent3-status" class="status">Waiting</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress3" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <div id="agent4" class="agent waiting" data-agent="4">
+                        <div class="agent-header">
+                            <span class="agent-icon">💰</span>
+                            <div class="agent-info">
+                                <span class="agent-name">AGENT 4: Reserve Calculation</span>
+                                <span class="agent-description">AI-enhanced reserve setting</span>
+                            </div>
+                            <span id="agent4-status" class="status">Waiting</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress4" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <div id="agent5" class="agent waiting" data-agent="5">
+                        <div class="agent-header">
+                            <span class="agent-icon">📊</span>
+                            <div class="agent-info">
+                                <span class="agent-name">AGENT 5: System Learning</span>
+                                <span class="agent-description">Continuous improvement & analytics</span>
+                            </div>
+                            <span id="agent5-status" class="status">Waiting</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress5" class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="demo-controls">
+                    <button id="startProcessing" class="start-btn">
+                        ▶️ START AI PROCESSING
+                    </button>
+                    <button id="resetDemo" class="reset-btn" style="display: none;">
+                        🔄 RESET DEMO
+                    </button>
+                </div>
+            </section>
+
+            <!-- Live Results -->
+            <section class="results-area">
+                <h2>📊 Live Processing Results</h2>
+                <div class="results-info">
+                    <p>AI insights appear here as each agent completes its analysis</p>
+                </div>
+                
+                <div id="liveResults" class="live-results">
+                    <div class="waiting-message">
+                        <div class="waiting-icon">⏳</div>
+                        <h3>Ready to Process</h3>
+                        <p>Click "START AI PROCESSING" to watch the Martinez claim flow through our intelligent agent system</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>AI Claims Processing MVP Demo | Transforming Insurance Complexity into Clarity</p>
+        </footer>
+    </div>
+
+    <script src="assets/js/demo.js"></script>
+</body>
+</html>
