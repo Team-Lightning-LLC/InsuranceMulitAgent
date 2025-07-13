@@ -360,7 +360,7 @@ class ClaimsDemo {
         const summaryDiv = document.createElement('div');
         summaryDiv.className = 'final-summary';
         summaryDiv.innerHTML = `
-            <h3>🎯 Processing Complete - Martinez Family Claim</h3>
+            <h3> Processing Complete - Martinez Family Claim</h3>
             <p>All AI agents have completed their analysis. The claim is now optimally configured and ready for adjuster review with unprecedented accuracy and insight.</p>
             
             <div class="summary-stats">
