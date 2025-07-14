@@ -12,7 +12,7 @@ class ClaimsDemo {
                 id: 1,
                 name: "Document Analysis",
                 icon: "📄",
-                duration: 3000,
+                duration: 1500,
                 description: "Analyzing police report and extracting complexity indicators...",
                 result: {
                     title: "🤖 AGENT 1: Document Analysis Complete",
@@ -35,7 +35,7 @@ class ClaimsDemo {
                 id: 2,
                 name: "Context & History",
                 icon: "🔗",
-                duration: 4000,
+                duration: 10000,
                 description: "Cross-referencing historical patterns and building prediction models...",
                 result: {
                     title: "🤖 AGENT 2: Historical Pattern Analysis Complete",
@@ -65,7 +65,7 @@ class ClaimsDemo {
                 id: 3,
                 name: "Intelligent Routing",
                 icon: "👤",
-                duration: 2000,
+                duration: 10000,
                 description: "Matching claim complexity with optimal adjuster expertise...",
                 result: {
                     title: "🤖 AGENT 3: Optimal Assignment Complete",
@@ -93,7 +93,7 @@ class ClaimsDemo {
                 id: 4,
                 name: "Reserve Calculation",
                 icon: "💰",
-                duration: 3500,
+                duration: 10000,
                 description: "Calculating AI-enhanced reserves using complexity factors...",
                 result: {
                     title: "🤖 AGENT 4: AI-Enhanced Reserve Setting Complete",
@@ -131,7 +131,7 @@ class ClaimsDemo {
     id: 5,
     name: "System Learning",
     icon: "📊",
-    duration: 2500,
+    duration: 8000,
     description: "Analyzing claim evolution and updating prediction models...",
     result: {
         title: "🤖 AGENT 5: System Learning Loop Complete",
