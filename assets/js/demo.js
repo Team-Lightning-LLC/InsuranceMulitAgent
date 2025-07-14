@@ -1,6 +1,6 @@
 /**
- * AI Claims Processing MVP Demo
- * Interactive demonstration of the Martinez family claim processing
+ * AI Claims Processing MVP Demo - Manual Control Version
+ * Each agent runs individually when triggered
  */
 
 class ClaimsDemo {
@@ -127,124 +127,117 @@ class ClaimsDemo {
                     `
                 }
             },
-       {
-    id: 5,
-    name: "System Learning",
-    icon: "📊",
-    duration: 2500,
-    description: "Analyzing claim evolution and updating prediction models...",
-    result: {
-        title: "🤖 AGENT 5: System Learning Loop Complete",
-        content: `
-            <div class="result-card">
-                <h4>📋 Claim Analysis: Martinez Family (2025-0423-187)</h4>
-                <p>T-bone collision with multi-generational family. 69-year-old unconscious diabetic driver, 67-year-old passenger, 8-year-old with facial trauma. High-speed impact (55mph in 35mph zone). Clear liability to at-fault driver.</p>
-                
-                <h4>⏱️ Timeline with Reserve Adjustments</h4>
-<div class="timeline-container">
-    <div class="timeline-item timeline-incident">
-        <div class="timeline-header">
-            <div class="timeline-date">April 23, 2025: Incident</div>
-        </div>
-        <div class="timeline-description">
-            T-bone collision, unconscious elderly driver (Roberto, 69, diabetic)<br>
-            8-year-old Sofia facial lacerations from Tesla glass breakage
-        </div>
-        <div class="timeline-insight">
-            <span class="insight-label">Early Predictors:</span>
-            <span class="insight-text">Minor facial trauma + elderly unconscious + family dynamics</span>
-        </div>
-    </div>
+            {
+                id: 5,
+                name: "System Learning",
+                icon: "📊",
+                duration: 2500,
+                description: "Analyzing claim evolution and updating prediction models...",
+                result: {
+                    title: "🤖 AGENT 5: System Learning Loop Complete",
+                    content: `
+                        <div class="result-card">
+                            <h4>📋 Claim Analysis: Martinez Family (2025-0423-187)</h4>
+                            <p>T-bone collision with multi-generational family. 69-year-old unconscious diabetic driver, 67-year-old passenger, 8-year-old with facial trauma. High-speed impact (55mph in 35mph zone). Clear liability to at-fault driver.</p>
+                            
+                            <h4>⏱️ Timeline with Reserve Adjustments</h4>
+                            <div class="timeline-container">
+                                <div class="timeline-item timeline-incident">
+                                    <div class="timeline-header">
+                                        <div class="timeline-date">April 23, 2025: Incident</div>
+                                    </div>
+                                    <div class="timeline-description">
+                                        T-bone collision, unconscious elderly driver (Roberto, 69, diabetic)<br>
+                                        8-year-old Sofia facial lacerations from Tesla glass breakage
+                                    </div>
+                                    <div class="timeline-insight">
+                                        <span class="insight-label">Early Predictors:</span>
+                                        <span class="insight-text">Minor facial trauma + elderly unconscious + family dynamics</span>
+                                    </div>
+                                </div>
 
-    <div class="timeline-item timeline-reserve">
-        <div class="timeline-header">
-            <div class="timeline-date">April 24, 2025: Initial AI Reserve</div>
-            <div class="timeline-amount">$612,500</div>
-        </div>
-        <div class="timeline-description">
-            Based on complexity multipliers and historical patterns
-        </div>
-        <div class="timeline-insight">
-            <span class="insight-label">Key Insight:</span>
-            <span class="insight-text">Minor facial trauma requires 6.2x multiplier for growth-related surgeries</span>
-        </div>
-    </div>
+                                <div class="timeline-item timeline-reserve">
+                                    <div class="timeline-header">
+                                        <div class="timeline-date">April 24, 2025: Initial AI Reserve</div>
+                                        <div class="timeline-amount">$612,500</div>
+                                    </div>
+                                    <div class="timeline-description">
+                                        Based on complexity multipliers and historical patterns
+                                    </div>
+                                    <div class="timeline-insight">
+                                        <span class="insight-label">Key Insight:</span>
+                                        <span class="insight-text">Minor facial trauma requires 6.2x multiplier for growth-related surgeries</span>
+                                    </div>
+                                </div>
 
-    <div class="timeline-item timeline-adjustment">
-        <div class="timeline-header">
-            <div class="timeline-date">May 15, 2025: First Adjustment</div>
-            <div class="timeline-amount">$645,000 <span style="font-size: 0.8rem;">(+$32,500)</span></div>
-        </div>
-        <div class="timeline-description">
-            Sofia's second surgery due to growth changes<br>
-            Roberto cardiac complications from diabetes
-        </div>
-        <div class="timeline-insight">
-            <span class="insight-label">Predictable:</span>
-            <span class="insight-text">73% of elderly unconscious diabetics develop cardiac issues</span>
-        </div>
-    </div>
+                                <div class="timeline-item timeline-adjustment">
+                                    <div class="timeline-header">
+                                        <div class="timeline-date">May 15, 2025: First Adjustment</div>
+                                        <div class="timeline-amount">$645,000 <span style="font-size: 0.8rem;">(+$32,500)</span></div>
+                                    </div>
+                                    <div class="timeline-description">
+                                        Sofia's second surgery due to growth changes<br>
+                                        Roberto cardiac complications from diabetes
+                                    </div>
+                                    <div class="timeline-insight">
+                                        <span class="insight-label">Predictable:</span>
+                                        <span class="insight-text">73% of elderly unconscious diabetics develop cardiac issues</span>
+                                    </div>
+                                </div>
 
-    <div class="timeline-item timeline-adjustment">
-        <div class="timeline-header">
-            <div class="timeline-date">July 8, 2025: Second Adjustment</div>
-            <div class="timeline-amount">$685,000 <span style="font-size: 0.8rem;">(+$40,000)</span></div>
-        </div>
-        <div class="timeline-description">
-            Family attorney retained (as predicted 76% probability)<br>
-            Sofia requires psychological counseling
-        </div>
-        <div class="timeline-insight">
-            <span class="insight-label">Complex Element:</span>
-            <span class="insight-text">Family unit trauma multiplier in effect</span>
-        </div>
-    </div>
+                                <div class="timeline-item timeline-adjustment">
+                                    <div class="timeline-header">
+                                        <div class="timeline-date">July 8, 2025: Second Adjustment</div>
+                                        <div class="timeline-amount">$685,000 <span style="font-size: 0.8rem;">(+$40,000)</span></div>
+                                    </div>
+                                    <div class="timeline-description">
+                                        Family attorney retained (as predicted 76% probability)<br>
+                                        Sofia requires psychological counseling
+                                    </div>
+                                    <div class="timeline-insight">
+                                        <span class="insight-label">Complex Element:</span>
+                                        <span class="insight-text">Family unit trauma multiplier in effect</span>
+                                    </div>
+                                </div>
 
-    <div class="timeline-item timeline-settlement">
-        <div class="timeline-header">
-            <div class="timeline-date">October 22, 2025: Final Settlement</div>
-            <div class="timeline-amount">$674,280</div>
-        </div>
-        <div class="timeline-description">
-            18-month resolution as predicted
-        </div>
-        <div class="timeline-insight">
-            <span class="insight-label">Reserve Accuracy:</span>
-            <span class="insight-text">98.4% ($685K vs $674K) <span class="accuracy-badge">✅ 98.4%</span></span>
-        </div>
-    </div>
-</div>
-                
-                <div class="flag-item" style="background: #dcfce7; border-left-color: #22c55e; color: #166534;">
-                    <strong>October 22, 2025: Final Settlement - $674,280</strong><br>
-                    18-month resolution as predicted<br>
-                    <strong>Reserve Accuracy:</strong> 98.4% ($685K vs $674K)
-                </div>
-                
-                <h4>🎯 Case Conclusion for Analytics</h4>
-                
-                <div class="success-item">
-                    <strong>Reserve Accuracy:</strong> 98.4% final alignment ($685,000 vs $674,280)
-                </div>
-                
-                <h4>🔍 Key Predictive Elements Validated:</h4>
-                <div class="flag-item">1. Tesla glass breakage pattern → facial injury severity (92% correlation)</div>
-                <div class="flag-item">2. Unconscious elderly diabetic → cardiac complications within 60 days</div>
-                <div class="flag-item">3. Minor facial trauma → average 2.6 surgeries through age 18</div>
-                <div class="flag-item">4. Family unit dynamics → 2.1x settlement multiplier confirmed</div>
-                <div class="flag-item">5. Multi-generational claims → 89% attorney involvement rate</div>
-                
-                <h4>📈 Reserve Setting Improvement Opportunities:</h4>
-                <div class="success-item">✅ Minor + elderly combination warrants immediate specialist routing</div>
-                <div class="success-item">✅ Tesla Model S impact physics predict specific injury patterns</div>
-                <div class="success-item">✅ Family attorney involvement timeline now refined to 90-day average</div>
-                <div class="success-item">✅ Diabetic trauma protocols updated with cardiac risk modeling</div>
-                
-                <p style="margin-top: 15px; padding: 10px; background: #f0f9ff; border-radius: 6px; border-left: 3px solid #0ea5e9; color: #0c4a6e;"><strong>🏆 Competitive Intelligence:</strong> This case refined our multi-generational claim prediction model. The system now has 47 similar cases in database, creating industry-leading accuracy in family unit dynamics and minor facial trauma progression.</p>
-            </div>
-        `
-    }
-}
+                                <div class="timeline-item timeline-settlement">
+                                    <div class="timeline-header">
+                                        <div class="timeline-date">October 22, 2025: Final Settlement</div>
+                                        <div class="timeline-amount">$674,280</div>
+                                    </div>
+                                    <div class="timeline-description">
+                                        18-month resolution as predicted
+                                    </div>
+                                    <div class="timeline-insight">
+                                        <span class="insight-label">Reserve Accuracy:</span>
+                                        <span class="insight-text">98.4% ($685K vs $674K) <span class="accuracy-badge">✅ 98.4%</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <h4>🎯 Case Conclusion for Analytics</h4>
+                            <div class="success-item">
+                                <strong>Reserve Accuracy:</strong> 98.4% final alignment ($685,000 vs $674,280)
+                            </div>
+                            
+                            <h4>🔍 Key Predictive Elements Validated:</h4>
+                            <div class="flag-item">1. Tesla glass breakage pattern → facial injury severity (92% correlation)</div>
+                            <div class="flag-item">2. Unconscious elderly diabetic → cardiac complications within 60 days</div>
+                            <div class="flag-item">3. Minor facial trauma → average 2.6 surgeries through age 18</div>
+                            <div class="flag-item">4. Family unit dynamics → 2.1x settlement multiplier confirmed</div>
+                            <div class="flag-item">5. Multi-generational claims → 89% attorney involvement rate</div>
+                            
+                            <h4>📈 Reserve Setting Improvement Opportunities:</h4>
+                            <div class="success-item">✅ Minor + elderly combination warrants immediate specialist routing</div>
+                            <div class="success-item">✅ Tesla Model S impact physics predict specific injury patterns</div>
+                            <div class="success-item">✅ Family attorney involvement timeline now refined to 90-day average</div>
+                            <div class="success-item">✅ Diabetic trauma protocols updated with cardiac risk modeling</div>
+                            
+                            <p style="margin-top: 15px; padding: 10px; background: #f0f9ff; border-radius: 6px; border-left: 3px solid #0ea5e9; color: #0c4a6e;"><strong>🏆 Competitive Intelligence:</strong> This case refined our multi-generational claim prediction model. The system now has 47 similar cases in database, creating industry-leading accuracy in family unit dynamics and minor facial trauma progression.</p>
+                        </div>
+                    `
+                }
+            }
         ];
         
         this.init();
@@ -256,43 +249,87 @@ class ClaimsDemo {
     }
 
     bindEvents() {
-        document.getElementById('startProcessing').addEventListener('click', () => this.startDemo());
+        // Bind individual agent buttons
+        for (let i = 1; i <= 5; i++) {
+            const button = document.getElementById(`startAgent${i}`);
+            if (button) {
+                button.addEventListener('click', () => this.startAgent(i - 1));
+            }
+        }
+        
         document.getElementById('resetDemo').addEventListener('click', () => this.resetDemo());
     }
 
     setupInitialState() {
+        // Set initial states
         this.agents.forEach((agent, index) => {
-            const agentElement = document.getElementById(`agent${index + 1}`);
-            const statusElement = document.getElementById(`agent${index + 1}-status`);
-            
+            const statusElement = document.getElementById(`agent${agent.id}-status`);
             if (index === 0) {
                 statusElement.textContent = 'Ready';
             } else {
                 statusElement.textContent = 'Waiting';
             }
         });
+
+        // Update demo controls
+        this.updateDemoControls();
     }
 
-    async startDemo() {
-        if (this.isProcessing) return;
+    updateDemoControls() {
+        const controlsContainer = document.querySelector('.demo-controls');
+        controlsContainer.innerHTML = '';
+
+        // Add individual agent buttons
+        this.agents.forEach((agent, index) => {
+            const isCompleted = document.getElementById(`agent${agent.id}`).classList.contains('complete');
+            const isNext = index === this.currentAgent;
+            const isDisabled = index > this.currentAgent;
+
+            const button = document.createElement('button');
+            button.id = `startAgent${agent.id}`;
+            button.className = isCompleted ? 'agent-btn completed' : 
+                              isNext ? 'agent-btn ready' : 
+                              'agent-btn disabled';
+            button.disabled = isDisabled;
+            
+            if (isCompleted) {
+                button.innerHTML = `✅ Agent ${agent.id}`;
+            } else if (isNext) {
+                button.innerHTML = `▶️ Start Agent ${agent.id}`;
+            } else {
+                button.innerHTML = `⏳ Agent ${agent.id}`;
+            }
+            
+            controlsContainer.appendChild(button);
+        });
+
+        // Add reset button if any agents are complete
+        if (this.currentAgent > 0) {
+            const resetBtn = document.createElement('button');
+            resetBtn.id = 'resetDemo';
+            resetBtn.className = 'reset-btn';
+            resetBtn.innerHTML = '🔄 RESET DEMO';
+            controlsContainer.appendChild(resetBtn);
+            resetBtn.addEventListener('click', () => this.resetDemo());
+        }
+    }
+
+    async startAgent(agentIndex) {
+        if (agentIndex !== this.currentAgent || this.isProcessing) return;
         
         this.isProcessing = true;
-        this.currentAgent = 0;
+        const agent = this.agents[agentIndex];
         
-        // Update UI
-        document.getElementById('startProcessing').disabled = true;
-        document.getElementById('liveResults').innerHTML = '<div style="text-align: center; color: #666; margin: 50px 0;"><h3>🚀 Processing Started</h3><p>AI agents are analyzing the Martinez claim...</p></div>';
+        // Update button to show processing
+        const button = document.getElementById(`startAgent${agent.id}`);
+        button.innerHTML = `⏳ Processing...`;
+        button.disabled = true;
         
-        // Process each agent sequentially
-        for (let i = 0; i < this.agents.length; i++) {
-            await this.processAgent(i);
-            if (i < this.agents.length - 1) {
-                await this.delay(500); // Brief pause between agents
-            }
-        }
+        await this.processAgent(agentIndex);
         
-        // Show final summary
-        this.showFinalSummary();
+        this.currentAgent++;
+        this.isProcessing = false;
+        this.updateDemoControls();
     }
 
     async processAgent(agentIndex) {
@@ -328,7 +365,7 @@ class ClaimsDemo {
         // Add result to live results
         this.addResult(agent.result);
         
-        // Start next agent if available
+        // Set next agent to ready if available
         if (agentIndex < this.agents.length - 1) {
             const nextAgent = this.agents[agentIndex + 1];
             const nextStatusElement = document.getElementById(`agent${nextAgent.id}-status`);
@@ -350,65 +387,12 @@ class ClaimsDemo {
         }
         
         resultsContainer.appendChild(resultDiv);
-        
-        // Scroll to bottom
         resultsContainer.scrollTop = resultsContainer.scrollHeight;
-    }
-
-    showFinalSummary() {
-        const resultsContainer = document.getElementById('liveResults');
-        const summaryDiv = document.createElement('div');
-        summaryDiv.className = 'final-summary';
-        summaryDiv.innerHTML = `
-            <h3> Processing Complete - Martinez Family Claim</h3>
-            <p>All AI agents have completed their analysis. The claim is now optimally configured and ready for adjuster review with unprecedented accuracy and insight.</p>
-            
-            <div class="summary-stats">
-                <div class="stat-item">
-                    <span class="stat-value">9.1/10</span>
-                    <span class="stat-label">Complexity Score</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">$612,500</span>
-                    <span class="stat-label">AI Reserve</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">Jennifer Torres</span>
-                    <span class="stat-label">Assigned Specialist</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">18-24 months</span>
-                    <span class="stat-label">Est. Timeline</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">96%</span>
-                    <span class="stat-label">Predicted Accuracy</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-value">$472K</span>
-                    <span class="stat-label">Avoided Shortfall</span>
-                </div>
-            </div>
-            
-            <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.2); border-radius: 8px;">
-                <strong>💡 Key Insight:</strong> Traditional methods would have set reserves 410% below actual needs. 
-                Our AI system prevented a massive earnings surprise while ensuring optimal care for the Martinez family.
-            </div>
-        `;
-        
-        resultsContainer.appendChild(summaryDiv);
-        resultsContainer.scrollTop = resultsContainer.scrollHeight;
-        
-        // Show reset button and update start button
-        document.getElementById('resetDemo').style.display = 'block';
-        const startBtn = document.getElementById('startProcessing');
-        startBtn.textContent = '✅ DEMO COMPLETE';
-        startBtn.disabled = true;
     }
 
     resetDemo() {
-        this.isProcessing = false;
         this.currentAgent = 0;
+        this.isProcessing = false;
         
         // Reset all agents to waiting state
         this.agents.forEach((agent, index) => {
@@ -431,15 +415,11 @@ class ClaimsDemo {
             <div class="waiting-message">
                 <div class="waiting-icon">⏳</div>
                 <h3>Ready to Process</h3>
-                <p>Click "START AI PROCESSING" to watch the Martinez claim flow through our intelligent agent system</p>
+                <p>Start with Agent 1 to begin the analysis</p>
             </div>
         `;
         
-        // Reset buttons
-        const startBtn = document.getElementById('startProcessing');
-        startBtn.disabled = false;
-        startBtn.textContent = '▶️ START AI PROCESSING';
-        document.getElementById('resetDemo').style.display = 'none';
+        this.updateDemoControls();
     }
 
     delay(ms) {
@@ -451,20 +431,3 @@ class ClaimsDemo {
 document.addEventListener('DOMContentLoaded', () => {
     new ClaimsDemo();
 });
-
-// Add some demo analytics
-window.demoAnalytics = {
-    startTime: null,
-    endTime: null,
-    
-    trackStart() {
-        this.startTime = new Date();
-        console.log('Demo started at:', this.startTime);
-    },
-    
-    trackEnd() {
-        this.endTime = new Date();
-        const duration = this.endTime - this.startTime;
-        console.log('Demo completed in:', duration + 'ms');
-    }
-};
