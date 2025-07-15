@@ -134,7 +134,7 @@ class ClaimsDemo {
     duration: 8000,
     description: "Analyzing claim evolution and updating prediction models...",
     result: {
-        title: "🤖 AGENT 5: System Learning Loop Complete",
+        title: "🤖 AGENT 5: Post-Claim Analysis Complete",
         content: `
             <div class="result-card">
                 <h4>📋 Claim Analysis: Martinez Family (2025-0423-187)</h4>
